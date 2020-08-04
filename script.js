@@ -19,7 +19,7 @@ const clearStatusClass = (elem) => {
   elem.classList.remove('wrong')
 }
 
-// при переходе на другой вопрос удаляем старые ответы и чистим классы у body
+// при переходе на другой вопрос удаляем старые ответы
 const resetState = () => {
   nextBtn.style.display = 'none'
 
