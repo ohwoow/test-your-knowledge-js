@@ -5,6 +5,7 @@ const question = document.querySelector('.question')
 const listQuiz = document.querySelector('.list-quiz')
 const counter = document.querySelector('.counter')
 
+
 counter.classList.add('hide')
 
 let counterCorrectAnswers = 1
@@ -40,6 +41,8 @@ const setStatusClass = (elem, status) => {
   }
 }
 
+
+
 // выбор ответа и добавление класса при нажатии
 const selectAnswer = (e) => {
 
@@ -51,6 +54,7 @@ const selectAnswer = (e) => {
     <br>
     ${counterCorrectAnswers > 3 ? "Test passed!" : "Test failed!"}
     `
+    console.log(counterCorrectAnswers);
   } else {
     selectBtn.style.backgroundColor = 'red'
   }

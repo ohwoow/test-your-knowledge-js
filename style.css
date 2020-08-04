@@ -23,6 +23,10 @@ body {
   background: var(--standartColor);
 }
 
+.test {
+  display: none;
+}
+
 .start {
   padding: 20px 40px;
   display: flex;
